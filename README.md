@@ -181,8 +181,7 @@ JAVA 1.8 + MYSQL +VUE
 web 端默认地址:
 http://ip:80
 
-html5/手机端默认地址：
-http://ip:80/html5
+
 
 默认管理账号/密码：
 admin/12345678

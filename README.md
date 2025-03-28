@@ -9,7 +9,7 @@
 JAVA 1.8 + MYSQL +VUE
 本项目基于前后端分离架构：
 服务端：springboot
-前端：vue
+前端：vue2+elemnt
 
 ## 功能列表
 

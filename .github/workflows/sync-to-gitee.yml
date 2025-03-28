@@ -1,0 +1,11 @@
+name: Sync to Gitee
+on: [push]
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Gitee Sync
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITEE_TOKEN }}" \
+            https://gitee.com/api/v5/repos/wy-soft/wuyu-manhou-base/mirror/pull

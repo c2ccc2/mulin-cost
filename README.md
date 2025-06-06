@@ -7,9 +7,14 @@
 ## 软件架构
 
 JAVA 1.8 + MYSQL +VUE
+
 本项目基于前后端分离架构：
-服务端：springboot
+
+后端：springboot
+
 前端：vue2+elementui
+
+
 
 ## 功能列表
 

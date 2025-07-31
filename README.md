@@ -18,34 +18,6 @@ JAVA 1.8 + MYSQL +VUE
 
 ## 功能列表
 
-工时模块
-
-1、我的工时：提交工时、查看详情、修改工时、我的工时、我的统计（填报率）。
-
-2、我的周报：提交周报、查看详情、修改周报。
-
-3、项目统计：项目日报、项目月报、项目日历、项目工时详情。
-
-4、项目投入：项目成本、项目投入进度、项目工时总计、工时明细、项目详情等。
-
-5、数据统计：工时统计、人员排行、阶段统计、工作内容统计。
-
-6、人员填报率统计：人员填报率排名、填报详情。
-
-7、工时审核：工时审核设置、工时审批。
-
-8、项目归档：项目工时归档、项目成本归档。
-
-9、项目成本：项目成本统计、项目成本明细。
-
-
-管理模块
-
-1、项目管理：创建项目、添加人员、删除项目。
-
-2、组织管理：用户管理、角色管理、重置密码、批量删除。
-
-3、职位管理：新增、修改、删除、批量删除等功能。
 
 ## 功能截图
 
@@ -80,19 +52,8 @@ JAVA 1.8 + MYSQL +VUE
     </tr>
 </table>
 
-#### 周报
 
-<table>
-    <tr>
-        <td>  <img src="document/img/week1.png"/>   </td>
-        <td>  <img src="document/img/week2.png"/>   </td>
-    </tr>
-    <tr>
-        <td> <img src="document/img/week3.png"/>  </td>
-        <td> <img src="document/img/week4.png"/> </td>
-    </tr>
-    
-</table>
+
 
 #### 项目统计
 
@@ -126,40 +87,16 @@ JAVA 1.8 + MYSQL +VUE
    
 </table>
 
-#### 项目归档
-
-<table>
-    <tr>
-        <td>  <img src="document/img/archive1.png"/>   </td>
-        <td>  <img src="document/img/archive2.png"/>   </td>
-    </tr>
-    <tr>
-        <td> <img src="document/img/archive3.png"/>  </td>
-        <td> <img src="document/img/archive4.png"/> </td>
-    </tr>
-   
-</table>
-
-#### 项目成本
-
-<table>
-    <tr>
-        <td>  <img src="document/img/cost1.png"/>   </td>
-        <td>  <img src="document/img/cost2.png"/>   </td>
-    </tr>
-    <tr>
-        <td> <img src="document/img/cost3.png"/>  </td>
-        <td>  </td>
-    </tr>
-   
-</table>
 
 
 
 
 
 ## 下载使用
-请使用release进行下载
+请使用release进行下载，
+如使用clone方式存在部分文件丢失的情况，请到网盘或者release进行下载。
+
+
 
 ## 使用文档
 站内wiki

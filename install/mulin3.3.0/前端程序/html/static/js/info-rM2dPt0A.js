@@ -1,0 +1,1 @@
+import{U as s}from"./index-DOTrAPYh.js";const n=s("info",{state:()=>({version:void 0,systemName:void 0}),getters:{getVersion:e=>e.version,getSystemName:e=>e.systemName},actions:{setVersion(e){this.version=e},setSystemName(e){this.systemName=e}}});export{n as u};

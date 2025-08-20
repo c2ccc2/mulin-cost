@@ -1,1 +1,0 @@
-import{z as t}from"./index-DOTrAPYh.js";function e(r){return t({url:"/project/hour/detail?hourId="+r,method:"get"})}function u(r){return t({url:"/project/hour/count?projectId="+r,method:"get"})}function c(r){return t({url:"/project/hour/list",method:"get",params:r})}export{c as a,u as c,e as l};

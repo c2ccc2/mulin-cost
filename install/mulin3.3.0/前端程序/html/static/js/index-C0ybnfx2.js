@@ -1,1 +1,0 @@
-import{_ as n}from"./index-BeLwp2QX.js";import{r as o,k as t,o as l,I as p,m as e}from"./index-DOTrAPYh.js";const _={__name:"index",setup(u){const r=o("/prod-api/swagger-ui/index.html");return(c,s)=>(l(),t(e(n),{src:e(r),"onUpdate:src":s[0]||(s[0]=a=>p(r)?r.value=a:null)},null,8,["src"]))}};export{_ as default};

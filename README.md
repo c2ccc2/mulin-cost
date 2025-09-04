@@ -6,15 +6,30 @@
 
 ## 软件架构
 
-JAVA 1.8 + MYSQL +VUE
+JAVA 17 + MYSQL +VUE
 
 本项目基于前后端分离架构：
 
-后端：springboot
+后端：springboot3
 
-前端：vue2+elementui
+前端：Vue3 + Element Plus
 
 
+##  版本说明
+* **V3**
+    * [x] v3.4.0 重构填报工时内容，增加任务完成度属性。
+    * [x] v3.3.1 前端兼容性与调试优化。
+    * [x] v3.3.0 基于SpringBoot3 + vue3.2+ 进行重构。
+    * [x] v3.2.1 优化审核列表，修复审核权限校验。
+    * [x] v3.2.0 重构前端布局，优化首页样式和项目列表样式。
+    * [x] v3.1.0 新增“按周”维度的项目统计功能，优化项目添加人员流程。
+    * [x] v3.0.0 原「无鱼工时系统」更名为「沐霖工时系统」！
+
+
+##  版本计划
+    * [] 增加导入工时。
+    * [ ] 支持按项目进行审核。
+    * [ ] 支持项目工时报表查看。
 
 ## 功能列表
 
@@ -22,70 +37,48 @@ JAVA 1.8 + MYSQL +VUE
 ## 功能截图
 
 #### 首页
+<img src="document/mulin/1.png"/>
 
-![](document/img/1.png)
+
+#### 工时填报
+
+<table>
+    <tr>
+        <td>  
+      <img src="document/mulin/2.png"/>   </td>
+        <td>  
+      <img src="document/mulin/3.png"/>
+   </td>
+    </tr>
+
+</table>
+
+
+#### 工时审核
+
+<table>
+    <tr>
+        <td>  
+      <img src="document/mulin/4.png"/>   </td>
+        <td>  
+      <img src="document/mulin/5.png"/>
+   </td>
+    </tr>
+
+</table>
+
+
+
+
+
 
 #### 数据统计
 
-<table>
-    <tr>
-        <td>  <img src="document/img/t1.png"/>   </td>
-        <td>  <img src="document/img/t2.png"/>   </td>
-    </tr>
-   
-</table>
-
-#### 我的
-
-<table>
-    <tr>
-        <td>  <img src="document/img/2.png"/>   </td>
-        <td>  <img src="document/img/3.png"/>   </td>
-    </tr>
-    <tr>
-        <td> <img src="document/img/13.png"/>  </td>
-        <td> <img src="document/img/yuangong01.png"/> </td>
-    </tr>
-     <tr>
-        <td> <img src="document/img/yuangong02.png"/>  </td>
-        <td> <img src="document/img/yuangong03.png"/> </td>
-    </tr>
-</table>
 
 
-
-
-#### 项目统计
-
-<table>
- <tr>
-  <img src="document/img/xm10.png" />
-
-  <img src="document/img/xm11.png"/>
-</tr>
-    <tr>
-        <td> <img src="document/img/yuebao01.png"/>  </td>
-        <td> <img src="document/img/yuebao02.png"/> </td>
-    </tr>
-     <tr>
-        <td> <img src="document/img/4.png"/>  </td>
-        <td> <img src="document/img/5.png"/> </td>
-    </tr>
-</table>
-
-#### 工时统计
-
-<table>
-    <tr>
-        <td>  <img src="document/img/6.png"/>   </td>
-        <td>  <img src="document/img/7.png"/>   </td>
-    </tr>
-    <tr>
-        <td> <img src="document/img/12.png"/>  </td>
-        <td> <img src="document/img/review2.png"/> </td>
-    </tr>
-   
-</table>
+<img src="document/mulin/6.png"/>
+<img src="document/mulin/7.png"/>
+<img src="document/mulin/8.png"/>
 
 
 

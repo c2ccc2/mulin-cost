@@ -16,7 +16,9 @@ JAVA 17 + MYSQL +VUE
 
 
 ##  版本说明
+当前版本  V3.5.0 
 * **V3**
+    * [x] v3.5.0 重构工时审核功能，支持按项目进行审核。
     * [x] v3.4.0 重构填报工时内容，增加任务完成度属性。
     * [x] v3.3.1 前端兼容性与调试优化。
     * [x] v3.3.0 基于SpringBoot3 + vue3.2+ 进行重构。
@@ -27,8 +29,8 @@ JAVA 17 + MYSQL +VUE
 
 
 ##  版本计划
-    * [] 增加导入工时。
-    * [ ] 支持按项目进行审核。
+    * [x] 支持按项目进行审核。
+    * [ ] 增加导入工时。
     * [ ] 支持项目工时报表查看。
 
 ## 功能列表
@@ -42,16 +44,17 @@ JAVA 17 + MYSQL +VUE
 
 #### 工时填报
 
-<table>
-    <tr>
-        <td>  
-      <img src="document/mulin/2.png"/>   </td>
-        <td>  
-      <img src="document/mulin/3.png"/>
-   </td>
-    </tr>
+<img src="document/mulin/2.png"/>   </td>
 
-</table>
+
+<img src="document/mulin/3.png"/>   </td>
+
+
+<img src="document/mulin/31.png"/>   </td>
+
+
+
+
 
 
 #### 工时审核
@@ -61,7 +64,7 @@ JAVA 17 + MYSQL +VUE
         <td>  
       <img src="document/mulin/4.png"/>   </td>
         <td>  
-      <img src="document/mulin/5.png"/>
+      <img src="document/mulin/41.png"/>
    </td>
     </tr>
 
@@ -86,15 +89,16 @@ JAVA 17 + MYSQL +VUE
 
 
 ## 下载使用
-请使用release进行下载，
+，
 如使用clone方式存在部分文件丢失的情况，请到网盘或者release进行下载。
 
 
 
 ## 使用文档
-站内wiki
+站内faq
+https://www.wuyusoft.com/faqs.html
 
-###
+### 
 
 web 端默认地址:
 http://ip:80

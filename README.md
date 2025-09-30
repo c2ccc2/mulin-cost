@@ -14,48 +14,56 @@ JAVA 17 + MYSQL +VUE
 
 前端：Vue3 + Element Plus
 
+## 版本说明
 
-##  版本说明
-当前版本  V3.5.0 
-* **V3**
-    * [x] v3.5.0 重构工时审核功能，支持按项目进行审核。
-    * [x] v3.4.0 重构填报工时内容，增加任务完成度属性。
-    * [x] v3.3.1 前端兼容性与调试优化。
-    * [x] v3.3.0 基于SpringBoot3 + vue3.2+ 进行重构。
-    * [x] v3.2.1 优化审核列表，修复审核权限校验。
-    * [x] v3.2.0 重构前端布局，优化首页样式和项目列表样式。
-    * [x] v3.1.0 新增“按周”维度的项目统计功能，优化项目添加人员流程。
-    * [x] v3.0.0 原「无鱼工时系统」更名为「沐霖工时系统」！
+当前版本 V3.6.0
 
+- **V3**
+  - [x] v3.6.0 支持批量导入工时。
+  - [x] v3.5.0 重构工时审核功能，支持按项目进行审核。
+  - [x] v3.4.0 重构填报工时内容，增加任务完成度属性。
+  - [x] v3.3.1 前端兼容性与调试优化。
+  - [x] v3.3.0 基于 SpringBoot3 + vue3.2+ 进行重构。
+  - [x] v3.2.1 优化审核列表，修复审核权限校验。
+  - [x] v3.2.0 重构前端布局，优化首页样式和项目列表样式。
+  - [x] v3.1.0 新增“按周”维度的项目统计功能，优化项目添加人员流程。
+  - [x] v3.0.0 原「无鱼工时系统」更名为「沐霖工时系统」！
 
-##  版本计划
+## 版本计划
+
     * [x] 支持按项目进行审核。
-    * [ ] 增加导入工时。
+    * [x] 增加导入工时。
     * [ ] 支持项目工时报表查看。
+    * [ ] 支持个人或项目或部门进行工时统计。
+    * [ ] 工时明细数据的导出（待定）。
 
 ## 功能列表
-
 
 ## 功能截图
 
 #### 首页
-<img src="document/mulin/1.png"/>
 
+<img src="document/mulin/1.png"/>
 
 #### 工时填报
 
-<img src="document/mulin/2.png"/>   </td>
+<img src="document/mulin/2.png"/> </td>
 
+<img src="document/mulin/3.png"/> </td>
 
-<img src="document/mulin/3.png"/>   </td>
+<img src="document/mulin/31.png"/> </td>
 
+#### 批量导入
 
-<img src="document/mulin/31.png"/>   </td>
-
-
-
-
-
+ <table>
+    <tr>
+        <td>
+      <img src="document/mulin/21.png"/>   </td>
+        <td>
+      <img src="document/mulin/22.png"/>
+   </td>
+    </tr>
+</table>
 
 #### 工时审核
 
@@ -67,47 +75,31 @@ JAVA 17 + MYSQL +VUE
       <img src="document/mulin/41.png"/>
    </td>
     </tr>
-
 </table>
 
-
-
-
-
-
 #### 数据统计
-
-
 
 <img src="document/mulin/6.png"/>
 <img src="document/mulin/7.png"/>
 <img src="document/mulin/8.png"/>
 
-
-
-
-
-
 ## 下载使用
+
 ，
-如使用clone方式存在部分文件丢失的情况，请到网盘或者release进行下载。
-
-
+如使用 clone 方式存在部分文件丢失的情况，请到网盘或者 release 进行下载。
 
 ## 使用文档
-站内faq
+
+站内 faq
 https://www.wuyusoft.com/faqs.html
 
-### 
+###
 
 web 端默认地址:
 http://ip:80
 
-
-
 默认管理账号/密码：
 admin/12345678
-
 
 ## 感谢
 

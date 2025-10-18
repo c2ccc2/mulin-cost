@@ -6,20 +6,19 @@
 
 ## 软件架构
 
-JAVA 17 + MYSQL +VUE
+JAVA 17 + MYSQL + VUE3
 
 本项目基于前后端分离架构：
 
-后端：springboot3
-
+后端：SpringBoot3 + MyBatis Plus
 前端：Vue3 + Element Plus
 
 ## 版本说明
 
-当前版本 V3.6.1
+当前版本 V3.7.0
 
 - **V3**
-
+  - [x] v3.7.0 增加人员工时统计模块
   - [x] v3.6.1 优化部门列表，，修复项目更换项目经理的选择列表问题。
   - [x] v3.6.0 支持批量导入工时。
   - [x] v3.5.0 重构工时审核功能，支持按项目进行审核。
@@ -35,8 +34,9 @@ JAVA 17 + MYSQL +VUE
 
     * [x] 支持按项目进行审核。
     * [x] 增加导入工时。
+    * [x] 支持个人工时统计。(项目统计在项目看板中)
+    * [ ] 支持按部门统计。
     * [ ] 支持项目工时报表查看。
-    * [ ] 支持个人或项目或部门进行工时统计。
     * [ ] 工时明细数据的导出（待定）。
 
 ## 功能列表
@@ -79,15 +79,28 @@ JAVA 17 + MYSQL +VUE
     </tr>
 </table>
 
-#### 数据统计
+#### 数据看板
 
 <img src="document/mulin/6.png"/>
+
+
+
+
+#### 数据查询
+
 <img src="document/mulin/7.png"/>
 <img src="document/mulin/8.png"/>
 
+
+
+#### 个人工时统计
+
+<img src="document/mulin/9.png"/>
+<img src="document/mulin/10.png"/>
+
 ## 下载使用
 
-，
+
 如使用 clone 方式存在部分文件丢失的情况，请到网盘或者 release 进行下载。
 
 ## 使用文档
@@ -102,6 +115,14 @@ http://ip:80
 
 默认管理账号/密码：
 admin/12345678
+
+
+
+## 联系交流
+Q群： 336197563
+
+微信： Maprapta （添加请备注说明）
+
 
 ## 感谢
 

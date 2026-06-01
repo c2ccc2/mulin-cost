@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" font-family="Arial, sans-serif">
+  <!-- 背景 -->
+  <rect width="900" height="550" fill="#f8f9fa" rx="8"/>
+  
+  <!-- 标题 -->
+  <text x="450" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#303133">任务创建流程</text>
+  
+  <!-- 步骤1 -->
+  <circle cx="150" cy="130" r="40" fill="#409eff"/>
+  <text x="150" y="125" font-size="28" font-weight="bold" fill="white" text-anchor="middle">1</text>
+  <text x="150" y="145" font-size="12" fill="white" text-anchor="middle">选择</text>
+  <rect x="80" y="190" width="140" height="50" fill="white" stroke="#409eff" stroke-width="2" rx="6"/>
+  <text x="150" y="210" font-size="14" fill="#303133" text-anchor="middle">进入任务管理</text>
+  <text x="150" y="230" font-size="14" fill="#303133" text-anchor="middle">选择目标项目</text>
+  
+  <!-- 箭头1 -->
+  <path d="M 290 130 L 370 130" stroke="#409eff" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- 步骤2 -->
+  <circle cx="400" cy="130" r="40" fill="#67c23a"/>
+  <text x="400" y="125" font-size="28" font-weight="bold" fill="white" text-anchor="middle">2</text>
+  <text x="400" y="145" font-size="12" fill="white" text-anchor="middle">填写</text>
+  <rect x="330" y="190" width="140" height="50" fill="white" stroke="#67c23a" stroke-width="2" rx="6"/>
+  <text x="400" y="210" font-size="14" fill="#303133" text-anchor="middle">点击"新增任务"</text>
+  <text x="400" y="230" font-size="14" fill="#303133" text-anchor="middle">填写任务信息</text>
+  
+  <!-- 箭头2 -->
+  <path d="M 540 130 L 620 130" stroke="#67c23a" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- 步骤3 -->
+  <circle cx="650" cy="130" r="40" fill="#e6a23c"/>
+  <text x="650" y="125" font-size="28" font-weight="bold" fill="white" text-anchor="middle">3</text>
+  <text x="650" y="145" font-size="12" fill="white" text-anchor="middle">完成</text>
+  <rect x="580" y="190" width="140" height="50" fill="white" stroke="#e6a23c" stroke-width="2" rx="6"/>
+  <text x="650" y="210" font-size="14" fill="#303133" text-anchor="middle">提交创建任务</text>
+  <text x="650" y="230" font-size="14" fill="#303133" text-anchor="middle">分配到成员</text>
+  
+  <!-- 任务信息表单示意 -->
+  <rect x="100" y="280" width="700" height="250" fill="white" stroke="#dcdfe6" stroke-width="2" rx="8"/>
+  <text x="120" y="315" font-size="16" font-weight="bold" fill="#303133">任务信息表单</text>
+  
+  <!-- 表单字段 -->
+  <rect x="130" y="335" width="100" height="30" fill="#f5f7fa" rx="4"/>
+  <text x="145" y="355" font-size="12" fill="#606266">任务名称 *</text>
+  <rect x="240" y="335" width="250" height="30" fill="white" stroke="#dcdfe6" stroke-width="1" rx="4"/>
+  <text x="255" y="355" font-size="12" fill="#c0c4cc">请输入任务名称</text>
+  
+  <rect x="510" y="335" width="100" height="30" fill="#f5f7fa" rx="4"/>
+  <text x="525" y="355" font-size="12" fill="#606266">负责人 *</text>
+  <rect x="620" y="335" width="150" height="30" fill="white" stroke="#dcdfe6" stroke-width="1" rx="4"/>
+  <text x="635" y="355" font-size="12" fill="#c0c4cc">选择负责人 ▼</text>
+  
+  <rect x="130" y="380" width="100" height="30" fill="#f5f7fa" rx="4"/>
+  <text x="145" y="400" font-size="12" fill="#606266">开始时间 *</text>
+  <rect x="240" y="380" width="150" height="30" fill="white" stroke="#dcdfe6" stroke-width="1" rx="4"/>
+  <text x="255" y="400" font-size="12" fill="#c0c4cc">选择日期</text>
+  
+  <rect x="410" y="380" width="120" height="30" fill="#f5f7fa" rx="4"/>
+  <text x="425" y="400" font-size="12" fill="#606266">计划结束时间</text>
+  <rect x="540" y="380" width="150" height="30" fill="white" stroke="#dcdfe6" stroke-width="1" rx="4"/>
+  <text x="555" y="400" font-size="12" fill="#c0c4cc">选择日期（可选）</text>
+  
+  <rect x="710" y="380" width="80" height="30" fill="#f5f7fa" rx="4"/>
+  <text x="725" y="400" font-size="12" fill="#606266">优先级</text>
+  
+  <rect x="130" y="425" width="100" height="30" fill="#f5f7fa" rx="4"/>
+  <text x="145" y="445" font-size="12" fill="#606266">任务状态</text>
+  <rect x="240" y="425" width="150" height="30" fill="white" stroke="#dcdfe6" stroke-width="1" rx="4"/>
+  <text x="255" y="445" font-size="12" fill="#409eff">待开始 ▼</text>
+  
+  <rect x="410" y="425" width="460" height="30" fill="#f5f7fa" rx="4"/>
+  <text x="425" y="445" font-size="12" fill="#606266">任务描述</text>
+  <rect x="130" y="465" width="640" height="50" fill="white" stroke="#dcdfe6" stroke-width="1" rx="4"/>
+  <text x="145" y="485" font-size="12" fill="#c0c4cc">请输入任务描述（可选）</text>
+  <text x="145" y="505" font-size="12" fill="#c0c4cc">详细说明任务内容和要求...</text>
+  
+  <!-- 箭头标记 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#409eff"/>
+    </marker>
+  </defs>
+</svg>

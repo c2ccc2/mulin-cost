@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" font-family="Arial, sans-serif">
+  <!-- 背景 -->
+  <rect width="900" height="300" fill="#f5f7fa" rx="8"/>
+  
+  <!-- 标题 -->
+  <text x="450" y="35" font-size="20" font-weight="bold" text-anchor="middle" fill="#303133">周报/月报统计卡片示意</text>
+  
+  <!-- 卡片1：统计时间 -->
+  <rect x="30" y="60" width="200" height="100" fill="white" rx="8" stroke="#e4e7ed" stroke-width="1"/>
+  <rect x="45" y="75" width="50" height="50" fill="linear-gradient(135deg, #667eea 0%, #764ba2 100%)" rx="12"/>
+  <text x="70" y="107" font-size="24" fill="white" text-anchor="middle">📅</text>
+  <text x="110" y="90" font-size="13" fill="#909399">统计时间</text>
+  <text x="110" y="115" font-size="14" font-weight="bold" fill="#303133">2024-01-01</text>
+  <text x="110" y="135" font-size="14" font-weight="bold" fill="#303133">至 2024-01-07</text>
+  
+  <!-- 卡片2：总工时 -->
+  <rect x="250" y="60" width="200" height="100" fill="white" rx="8" stroke="#e4e7ed" stroke-width="1"/>
+  <rect x="265" y="75" width="50" height="50" fill="#409eff" rx="12"/>
+  <text x="290" y="107" font-size="24" fill="white" text-anchor="middle">⏱</text>
+  <text x="330" y="90" font-size="13" fill="#909399">总工时</text>
+  <text x="330" y="120" font-size="24" font-weight="bold" fill="#409eff">40 小时</text>
+  
+  <!-- 卡片3：已审核 -->
+  <rect x="470" y="60" width="200" height="100" fill="white" rx="8" stroke="#e4e7ed" stroke-width="1"/>
+  <rect x="485" y="75" width="50" height="50" fill="#e6a23c" rx="12"/>
+  <text x="510" y="107" font-size="24" fill="white" text-anchor="middle">✓</text>
+  <text x="550" y="90" font-size="13" fill="#909399">已审核</text>
+  <text x="550" y="120" font-size="24" font-weight="bold" fill="#e6a23c">35 小时</text>
+  
+  <!-- 卡片4：未审核 -->
+  <rect x="690" y="60" width="200" height="100" fill="white" rx="8" stroke="#e4e7ed" stroke-width="1"/>
+  <rect x="705" y="75" width="50" height="50" fill="#f56c6c" rx="12"/>
+  <text x="730" y="107" font-size="24" fill="white" text-anchor="middle">⏰</text>
+  <text x="770" y="90" font-size="13" fill="#909399">未审核</text>
+  <text x="770" y="120" font-size="24" font-weight="bold" fill="#f56c6c">5 小时</text>
+  
+  <!-- 说明文字 -->
+  <rect x="30" y="190" width="840" height="90" fill="#ecf5ff" stroke="#409eff" stroke-width="1" rx="8"/>
+  <text x="450" y="215" font-size="14" font-weight="bold" fill="#409eff" text-anchor="middle">📊 统计卡片说明</text>
+  <text x="60" y="240" font-size="12" fill="#606266">• 统计时间：显示当前查询的起止日期范围</text>
+  <text x="60" y="260" font-size="12" fill="#606266">• 总工时：所有工时记录的总和（已审核 + 未审核）</text>
+  <text x="450" y="240" font-size="12" fill="#606266">• 已审核：审核状态为"已通过"的工时总和</text>
+  <text x="450" y="260" font-size="12" fill="#606266">• 未审核：审核状态为"待审核"或"已驳回"的工时总和</text>
+  
+  <!-- 需要真实截图标注 -->
+  <rect x="30" y="255" width="840" height="35" fill="#fdf6ec" stroke="#e6a23c" stroke-width="1" rx="4"/>
+  <text x="450" y="277" font-size="12" fill="#e6a23c" text-anchor="middle">📸 需要真实截图：周报页面的4个统计卡片（包含实际数据）</text>
+</svg>

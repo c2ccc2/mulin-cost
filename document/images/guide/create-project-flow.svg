@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Arial, sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="8"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#303133">项目创建流程</text>
+  
+  <!-- 步骤1 -->
+  <circle cx="150" cy="150" r="40" fill="#409eff"/>
+  <text x="150" y="145" font-size="28" font-weight="bold" fill="white" text-anchor="middle">1</text>
+  <text x="150" y="165" font-size="12" fill="white" text-anchor="middle">开始</text>
+  <rect x="80" y="210" width="140" height="50" fill="white" stroke="#409eff" stroke-width="2" rx="6"/>
+  <text x="150" y="240" font-size="14" fill="#303133" text-anchor="middle">进入项目管理</text>
+  
+  <!-- 箭头1 -->
+  <path d="M 290 150 L 370 150" stroke="#409eff" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- 步骤2 -->
+  <circle cx="400" cy="150" r="40" fill="#67c23a"/>
+  <text x="400" y="145" font-size="28" font-weight="bold" fill="white" text-anchor="middle">2</text>
+  <text x="400" y="165" font-size="12" fill="white" text-anchor="middle">操作</text>
+  <rect x="330" y="210" width="140" height="50" fill="white" stroke="#67c23a" stroke-width="2" rx="6"/>
+  <text x="400" y="235" font-size="14" fill="#303133" text-anchor="middle">点击"新增"按钮</text>
+  <text x="400" y="255" font-size="14" fill="#303133" text-anchor="middle">填写项目信息</text>
+  
+  <!-- 箭头2 -->
+  <path d="M 540 150 L 620 150" stroke="#67c23a" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- 步骤3 -->
+  <circle cx="650" cy="150" r="40" fill="#e6a23c"/>
+  <text x="650" y="145" font-size="28" font-weight="bold" fill="white" text-anchor="middle">3</text>
+  <text x="650" y="165" font-size="12" fill="white" text-anchor="middle">完成</text>
+  <rect x="580" y="210" width="140" height="50" fill="white" stroke="#e6a23c" stroke-width="2" rx="6"/>
+  <text x="650" y="240" font-size="14" fill="#303133" text-anchor="middle">提交创建项目</text>
+  
+  <!-- 项目信息表单示意 -->
+  <rect x="100" y="300" width="600" height="180" fill="white" stroke="#dcdfe6" stroke-width="2" rx="8"/>
+  <text x="120" y="335" font-size="16" font-weight="bold" fill="#303133">项目信息表单</text>
+  
+  <!-- 表单字段 -->
+  <rect x="130" y="355" width="100" height="30" fill="#f5f7fa" rx="4"/>
+  <text x="145" y="375" font-size="12" fill="#606266">项目名称 *</text>
+  <rect x="240" y="355" width="200" height="30" fill="white" stroke="#dcdfe6" stroke-width="1" rx="4"/>
+  <text x="255" y="375" font-size="12" fill="#c0c4cc">请输入项目名称</text>
+  
+  <rect x="460" y="355" width="100" height="30" fill="#f5f7fa" rx="4"/>
+  <text x="475" y="375" font-size="12" fill="#606266">开始时间 *</text>
+  <rect x="570" y="355" width="100" height="30" fill="white" stroke="#dcdfe6" stroke-width="1" rx="4"/>
+  <text x="585" y="375" font-size="12" fill="#c0c4cc">选择日期</text>
+  
+  <rect x="130" y="400" width="100" height="30" fill="#f5f7fa" rx="4"/>
+  <text x="145" y="420" font-size="12" fill="#606266">计划结束时间</text>
+  <rect x="240" y="400" width="200" height="30" fill="white" stroke="#dcdfe6" stroke-width="1" rx="4"/>
+  <text x="255" y="420" font-size="12" fill="#c0c4cc">选择日期（可选）</text>
+  
+  <rect x="460" y="400" width="100" height="30" fill="#f5f7fa" rx="4"/>
+  <text x="475" y="420" font-size="12" fill="#606266">项目状态</text>
+  <rect x="570" y="400" width="100" height="30" fill="white" stroke="#dcdfe6" stroke-width="1" rx="4"/>
+  <text x="585" y="420" font-size="12" fill="#67c23a">进行中 ▼</text>
+  
+  <rect x="130" y="445" width="540" height="30" fill="#f5f7fa" rx="4"/>
+  <text x="145" y="465" font-size="12" fill="#606266">项目描述</text>
+  <rect x="130" y="445" width="540" height="30" fill="white" stroke="#dcdfe6" stroke-width="1" rx="4"/>
+  <text x="145" y="465" font-size="12" fill="#c0c4cc">请输入项目描述（可选）</text>
+  
+  <!-- 箭头标记 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#409eff"/>
+    </marker>
+  </defs>
+</svg>

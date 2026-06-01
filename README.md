@@ -6,16 +6,39 @@
 
 ## 软件架构
 
-JAVA 17 + MYSQL + VUE3
+Go 1.21+ + MySQL 8.0 + Redis 7.0 + Vue 3.5
 
-本项目基于前后端分离架构：
+本项目采用前后端分离架构，支持多种部署方式：
 
-后端：SpringBoot3 + MyBatis Plus
-前端：Vue3 + Element Plus
+**后端技术栈：**
+- 🚀 **Gin 1.10** - 高性能 HTTP Web 框架
+- 💾 **GORM 1.25** - Go 语言 ORM 库
+- 🔐 **JWT** - 身份认证机制
+- 📦 **Viper** - 配置文件管理
+- 📝 **Zap** - 结构化日志记录
+
+**前端技术栈：**
+- 🎨 **Vue 3.5** - 渐进式 JavaScript 框架
+- ⚡ **Vite 6.3** - 新一代前端构建工具
+- 🎯 **Element Plus** - Vue 3 组件库
+- 📊 **ECharts 5.6** - 数据可视化图表库
+- 🛣️ **Vue Router 4** - 官方路由管理器
+
+**数据库：**
+- 🗄️ **MySQL 8.0** - 关系型数据库
+- 💨 **Redis 7.0** - 缓存数据库
+
+**部署方式：**
+- 🌐 **独立部署** - 前后端分离部署（Nginx + Go 二进制）
+- 🐳 **Docker Compose** - 容器化一键部署
+- 📦 **单程序嵌入式部署** - Go 二进制内嵌前端资源
 
 ## 版本说明
 
-当前版本 V3.9.0
+当前版本 V4.0.0
+
+- **V4**
+  - [x] v4.0.0 重大版本更新，前端全面升级至 Vue 3.5 + Vite 6.3，Go 后端重构，支持多种部署方式，工时类型分区块展示，双审核接口支持，多项问题修复和性能优化。
 
 - **V3**
   - [x] v3.9.1 修复版本，主要修复任务列表、任务填报以及工时填报的显示优化和编辑报错。
@@ -33,7 +56,7 @@ JAVA 17 + MYSQL + VUE3
   - [x] v3.3.0 基于 SpringBoot3 + vue3.2+ 进行重构。
   - [x] v3.2.1 优化审核列表，修复审核权限校验。
   - [x] v3.2.0 重构前端布局，优化首页样式和项目列表样式。
-  - [x] v3.1.0 新增“按周”维度的项目统计功能，优化项目添加人员流程。
+  - [x] v3.1.0 新增"按周"维度的项目统计功能，优化项目添加人员流程。
   - [x] v3.0.0 原「无鱼工时系统」更名为「沐霖工时系统」！
 
 ## 版本计划
@@ -42,9 +65,15 @@ JAVA 17 + MYSQL + VUE3
     * [x] 增加导入工时。
     * [x] 支持个人工时统计。(项目统计在项目看板中)
     * [x] 支持项目工时报表查看。
+    * [x] 前端全面升级至 Vue 3.5 + Vite 6.3
+    * [x] Go 后端重构
+    * [x] 支持多种部署方式
     * [ ] 支持按部门统计。
     * [ ] 定时任务。
     * [ ] 任务甘特图。
+    * [ ] 移动端优化。
+    * [ ] 高级报表功能。
+    * [ ] 实时通知。
 
 ## 功能列表
 
@@ -55,6 +84,8 @@ JAVA 17 + MYSQL + VUE3
 普通工时填报
 
 任务工时填报
+
+工时类型分区块展示
 
 **项目模块**
 
@@ -69,6 +100,8 @@ JAVA 17 + MYSQL + VUE3
 **审核模块**
 
 1、项目工时审核：项目工时审核列表、工时审核、审核详情。
+
+2、双审核接口支持：项目工时和普通工时并行审核。
 
 **数据统计**
 
@@ -88,79 +121,83 @@ JAVA 17 + MYSQL + VUE3
 
 3、职位管理：包括筛选、新增、修改、删除、批量删除等功能。
 
+**部署方式**
+
+1、独立部署：传统前后端分离部署方式。
+
+2、Docker Compose 一键部署：简化部署流程。
+
+3、单程序嵌入式部署：Go 二进制 + 嵌入式前端资源。
+
 ## 功能截图
 
 #### 首页
 
-<img src="document/mulin/1.png"/>
+<img src="document/mulin/1.png" alt="系统首页" width="800"/>
 
 #### 普通工时填报
 
-<img src="document/mulin/2.png"/> </td>
+<img src="document/images/guide/hour-fill.png" alt="普通工时填报" width="800"/>
 
-<img src="document/mulin/3.png"/> </td>
+#### 工时填报流程
 
-<img src="document/mulin/31.png"/> </td>
+<img src="document/images/guide/hour-fill-flow.svg" alt="工时填报流程" width="800"/>
 
 #### 批量导入
 
- <table>
-    <tr>
-        <td>
-      <img src="document/mulin/21.png"/>   </td>
-        <td>
-      <img src="document/mulin/22.png"/>
-   </td>
-    </tr>
+<table>
+   <tr>
+       <td>
+     <img src="document/mulin/21.png" alt="批量导入1" width="400"/>   </td>
+       <td>
+     <img src="document/mulin/22.png" alt="批量导入2" width="400"/>
+  </td>
+   </tr>
 </table>
 
 #### 任务工时填报
 
-<img src="document/mulin/50.png"/>
+<img src="document/images/guide/task-hour-fill.png" alt="任务工时填报" width="800"/>
 
-<img src="document/mulin/51.png"/>
+#### 任务工时填报流程
+
+<img src="document/images/guide/task-hour-fill-flow.svg" alt="任务工时填报流程" width="800"/>
 
 #### 工时审核
 
-<table>
-    <tr>
-        <td>  
-      <img src="document/mulin/4.png"/>   </td>
-        <td>  
-      <img src="document/mulin/41.png"/>
-   </td>
-    </tr>
-</table>
+<img src="document/images/guide/hour-review.png" alt="工时审核" width="800"/>
+
+#### 工时审核流程
+
+<img src="document/images/guide/hour-review-flow.svg" alt="工时审核流程" width="800"/>
 
 #### 任务管理
 
-<img src="document/mulin/52.png"/>
-
-<img src="document/mulin/53.png"/>
-
-<img src="document/mulin/54.png"/>
+<img src="document/images/guide/task-list.png" alt="任务管理" width="800"/>
 
 #### 任务日报
 
-<img src="document/mulin/55.png"/>
+<img src="document/mulin/55.png" alt="任务日报" width="800"/>
 
 #### 数据看板
 
-<img src="document/mulin/6.png"/>
+<img src="document/images/guide/project-list.png" alt="项目列表" width="800"/>
 
-#### 数据查询
+#### 数据统计
 
-<img src="document/mulin/7.png"/>
-<img src="document/mulin/8.png"/>
+<img src="document/images/guide/data-statistics.png" alt="数据统计" width="800"/>
 
-#### 个人工时统计
+#### 数据统计概览
 
-<img src="document/mulin/9.png"/>
-<img src="document/mulin/10.png"/>
+<img src="document/images/guide/data-statistics-overview.svg" alt="数据统计概览" width="800"/>
 
-#### 项目工时统计
+#### 周报查看
 
-<img src="document/mulin/11.png"/>
+<img src="document/images/guide/weekly-report.png" alt="周报查看" width="800"/>
+
+#### 周报卡片展示
+
+<img src="document/images/guide/weekly-report-cards.svg" alt="周报卡片" width="800"/>
 
 ## 测试环境
 
@@ -176,8 +213,7 @@ http://150.158.90.116:10809/
 ## 使用文档
 
 站内 faq
-https://www.wuyusoft.com/faqs.html
-
+https://doc.wuyusoft.com/
 ###
 
 web 端默认地址:
@@ -186,9 +222,7 @@ http://ip:80
 默认管理账号/密码：
 admin/12345678
 
-## 联系交流
 
-Q群： 336197563
 
 [//]: # "微信： Maprapta （添加请备注说明）"
 

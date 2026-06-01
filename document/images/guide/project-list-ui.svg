@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Arial, sans-serif">
+  <!-- 背景 -->
+  <rect width="800" height="400" fill="#f8f9fa" rx="8"/>
+  
+  <!-- 标题栏 -->
+  <rect x="0" y="0" width="800" height="60" fill="white" stroke="#e4e7ed" stroke-width="1"/>
+  <text x="30" y="38" font-size="20" font-weight="bold" fill="#303133">项目列表</text>
+  
+  <!-- 搜索栏 -->
+  <rect x="30" y="80" width="740" height="50" fill="white" stroke="#e4e7ed" stroke-width="1" rx="4"/>
+  <rect x="50" y="95" width="150" height="30" fill="#f5f7fa" rx="4"/>
+  <text x="65" y="115" font-size="12" fill="#909399">🔍 项目名称搜索</text>
+  <rect x="220" y="95" width="80" height="30" fill="#409eff" rx="4"/>
+  <text x="260" y="115" font-size="12" fill="white">搜索</text>
+  <rect x="310" y="95" width="80" height="30" fill="white" stroke="#dcdfe6" stroke-width="1" rx="4"/>
+  <text x="350" y="115" font-size="12" fill="#606266">重置</text>
+  <rect x="650" y="95" width="100" height="30" fill="#67c23a" rx="4"/>
+  <text x="700" y="115" font-size="12" fill="white">+ 新增项目</text>
+  
+  <!-- 表头 -->
+  <rect x="30" y="150" width="740" height="40" fill="#f5f7fa" stroke="#e4e7ed" stroke-width="1"/>
+  <text x="50" y="175" font-size="13" font-weight="bold" fill="#606266">序号</text>
+  <text x="120" y="175" font-size="13" font-weight="bold" fill="#606266">项目名称</text>
+  <text x="300" y="175" font-size="13" font-weight="bold" fill="#606266">开始时间</text>
+  <text x="450" y="175" font-size="13" font-weight="bold" fill="#606266">计划结束时间</text>
+  <text x="600" y="175" font-size="13" font-weight="bold" fill="#606266">状态</text>
+  <text x="700" y="175" font-size="13" font-weight="bold" fill="#606266">操作</text>
+  
+  <!-- 数据行1 -->
+  <rect x="30" y="190" width="740" height="50" fill="white" stroke="#e4e7ed" stroke-width="1"/>
+  <text x="55" y="220" font-size="13" fill="#606266">1</text>
+  <text x="120" y="220" font-size="13" font-weight="bold" fill="#303133">📁 ERP系统开发</text>
+  <text x="300" y="220" font-size="13" fill="#606266">2024-01-01</text>
+  <text x="450" y="220" font-size="13" fill="#606266">2024-06-30</text>
+  <rect x="600" y="205" width="60" height="24" fill="#ecf5ff" rx="12"/>
+  <text x="630" y="221" font-size="11" fill="#409eff">进行中</text>
+  <text x="700" y="220" font-size="12" fill="#409eff">编辑 | 删除</text>
+  
+  <!-- 数据行2 -->
+  <rect x="30" y="240" width="740" height="50" fill="#fafafa" stroke="#e4e7ed" stroke-width="1"/>
+  <text x="55" y="270" font-size="13" fill="#606266">2</text>
+  <text x="120" y="270" font-size="13" font-weight="bold" fill="#303133">📁 移动端APP</text>
+  <text x="300" y="270" font-size="13" fill="#606266">2024-02-01</text>
+  <text x="450" y="270" font-size="13" fill="#606266">2024-08-31</text>
+  <rect x="600" y="255" width="60" height="24" fill="#ecf5ff" rx="12"/>
+  <text x="630" y="271" font-size="11" fill="#409eff">进行中</text>
+  <text x="700" y="270" font-size="12" fill="#409eff">编辑 | 删除</text>
+  
+  <!-- 数据行3 -->
+  <rect x="30" y="290" width="740" height="50" fill="white" stroke="#e4e7ed" stroke-width="1"/>
+  <text x="55" y="320" font-size="13" fill="#606266">3</text>
+  <text x="120" y="320" font-size="13" font-weight="bold" fill="#303133">📁 数据迁移项目</text>
+  <text x="300" y="320" font-size="13" fill="#606266">2023-10-01</text>
+  <text x="450" y="320" font-size="13" fill="#606266">2024-03-31</text>
+  <rect x="600" y="305" width="60" height="24" fill="#f0f9eb" rx="12"/>
+  <text x="630" y="321" font-size="11" fill="#67c23a">已完成</text>
+  <text x="700" y="320" font-size="12" fill="#409eff">编辑 | 删除</text>
+  
+  <!-- 标注 -->
+  <rect x="30" y="360" width="740" height="30" fill="#fdf6ec" stroke="#e6a23c" stroke-width="1" rx="4"/>
+  <text x="400" y="380" font-size="12" fill="#e6a23c" text-anchor="middle">📸 需要真实截图：项目列表页面（包含搜索、新增按钮、数据表格）</text>
+</svg>
